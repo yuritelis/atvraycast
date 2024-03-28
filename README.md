@@ -13,15 +13,18 @@ Em seguida, foi iniciado o processo de programação, iniciado com o script de m
 Script para a movimentação da câmera:
 <br> <img src="img/script cam 1.jpg">
 <img src="img/script cam 2.jpg"> <br>
+EXPLICAÇÃO: <br>
 O código permite a rotação da câmera usando o mouse. Ele oferece opções para rotação nos eixos X e Y, com sensibilidades ajustáveis e limites de rotação vertical definidos. A câmera é rotacionada de acordo com os movimentos do mouse, proporcionando uma interação dinâmica com o ambiente do jogo.
 
 Script para travar o cursor na tela:
-<br> <img src="img/script cursor.jpg">
+<br> <img src="img/script cursor.jpg"> <br>
+EXPLICAÇÃO: <br>
 Quando definimos Cursor.lockState para CursorLockMode.Locked, estamos essencialmente "travando" o cursor do mouse dentro da janela do jogo ou aplicativo. Isso significa que o cursor não será visível e não poderá sair da área da janela, mesmo que o usuário mova o mouse fora dessa área.
 
 Script do Raycast com o conceito de Destroy:
 <br> <img src="img/script raycast 1.jpg">
 <img src="img/script raycast 2.jpg"> <br>
+EXPLICAÇÃO: <br>
 Este código pode ser dividido em duas partes
 Spawnar Prefab: O método SpawnarPrefab() é chamado no início do jogo e continua a instanciar objetos em posições aleatórias dentro de determinados limites de coordenadas a cada 3 segundos.
 <br>
